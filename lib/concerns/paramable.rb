@@ -1,6 +1,8 @@
 module Paramable
   module InstanceMethods
-    #nothing
+    def to_param
+      name.downcase.gsub(' ', '-')
+    end
   end
   module ClassMethods
     #nothing
