@@ -1,9 +1,9 @@
 module Findable
   module InstanceMethods
-    def find_by_name(name)
-    end
+    #nothing
   end
   module ClassMethods
-    #nothing
+    def find_by_name(name)
+    end
   end
 end
