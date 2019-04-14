@@ -4,6 +4,5 @@ module Findable
   end
   module ClassMethods
     #nothing
-
   end
 end
